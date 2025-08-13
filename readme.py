@@ -1,23 +1,19 @@
-# 🛰️ Filtro de Kalman en Python
+# Filtro de Kalman en Python
 
-Este repositorio contiene un ejemplo sencillo del **Filtro de Kalman** en 1D para estimar posición y velocidad, usando **Python**, **NumPy** y **Matplotlib**.
-El objetivo es mostrar cómo este algoritmo puede combinar mediciones ruidosas de un sensor con un modelo matemático para obtener estimaciones más precisas.
+Este repositorio contiene una implementación sencilla de un filtro de Kalman en Python.
 
----
+## Archivos
 
-## 📌 Descripción
-En este ejemplo simulamos un objeto moviéndose a velocidad constante:
-- **Posición real:** trayectoria perfecta sin ruido (conocida solo en la simulación).
-- **Mediciones ruidosas:** simuladas como lo haría un sensor real con error.
-- **Estimación Kalman:** resultado filtrado y más estable que sigue de cerca la posición real.
+- `filtrodkalman.py`: Código fuente con la implementación del filtro.
+- `ejemplo_grafica.png`: Imagen con el resultado de la ejecución del código.
 
----
+## Descripción
 
-## 📦 Requisitos
-- Python 3.x
-- NumPy
-- Matplotlib
+El filtro de Kalman es un algoritmo que permite estimar el estado de un sistema dinámico a partir de mediciones ruidosas. Este código implementa una versión básica para fines educativos y de práctica.
 
-Instalar dependencias:
+## Cómo usarlo
+
+Solo ejecuta el archivo `filtrodkalman.py` en un entorno Python con las librerías necesarias (por ejemplo, `numpy` y `matplotlib`).
+
 ```bash
-pip install numpy matplotlib
+python filtrodkalman.py
